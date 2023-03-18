@@ -4,7 +4,7 @@ import (
 	"context"
 	"flag"
 	"github.com/hashicorp/terraform-provider-time/internal/provider"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 )
